@@ -1,0 +1,60 @@
+ 
+No. of Station Nodes:1
+========================
+RTS:212712
+Missed CTS:2
+Collision Probability:.000009
+ 
+No. of Station Nodes:2
+========================
+RTS:253968
+Missed CTS:15294
+Collision Probability:.060220
+ 
+No. of Station Nodes:3
+========================
+RTS:269870
+Missed CTS:28317
+Collision Probability:.104928
+ 
+No. of Station Nodes:4
+========================
+RTS:283961
+Missed CTS:40635
+Collision Probability:.143100
+ 
+No. of Station Nodes:5
+========================
+RTS:287737
+Missed CTS:44384
+Collision Probability:.154251
+ 
+No. of Station Nodes:6
+========================
+RTS:281749
+Missed CTS:44451
+Collision Probability:.157768
+ 
+No. of Station Nodes:7
+========================
+RTS:189683
+Missed CTS:42605
+Collision Probability:.224611
+ 
+No. of Station Nodes:8
+========================
+RTS:195941
+Missed CTS:48354
+Collision Probability:.246778
+ 
+No. of Station Nodes:9
+========================
+RTS:201485
+Missed CTS:53397
+Collision Probability:.265017
+ 
+No. of Station Nodes:10
+========================
+RTS:207357
+Missed CTS:58911
+Collision Probability:.284104

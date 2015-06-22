@@ -1,0 +1,17 @@
+i=1; 
+while [ $i -le 10 ] 
+do 
+  export 'NS_LOG=DcaTxop=level_all|prefix_func|prefix_time'
+  ./waf --run "scratch/problem3a --nWifi=$i" > 3a_output.txt 2>&1
+  echo " " >> 3a_data.txt
+  echo "No. of Station Nodes:$i" >> 3a_data.txt
+  echo "========================" >> 3a_data.txt
+  rts=`grep rts 3a_output.txt |wc -l`
+  echo "RTS:$rts" >> 3a_data.txt
+  mcts=`grep 'missed cts' 3a_output.txt |wc -l` >> 3a_data.txt
+  echo "Missed CTS:$mcts" >> 3a_data.txt
+  collisionProb=`echo "scale=6;$mcts/$rts" | bc` >> 3a_data.txt
+  echo "Collision Probability:$collisionProb" >> 3a_data.txt
+  i=`expr $i + 1` 
+done
+ 
